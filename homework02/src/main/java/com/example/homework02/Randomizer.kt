@@ -2,8 +2,8 @@ package com.example.homework02
 
 import kotlin.random.Random
 
-!class Randomizer {
-    !fun getSetRandomNumbers(minSetSize: Int, maxSetSize: Int,
+class Randomizer {
+    fun getSetRandomNumbers(minSetSize: Int, maxSetSize: Int,
                             minNumberInLSet: Int, maxNumberInSet: Int): HashSet<Int> {
 
         /***
